@@ -1,0 +1,17 @@
+{
+    "name": "siam/elementor-custom-header-and-menu",
+    "autoload": {
+        "psr-4": {
+            "ELCHM\\Includes\\": "includes/",
+            "ELCHM\\Elementor\\": "elementor/",
+            "ELCHM\\Elementor\\Widgets\\": "elementor/widgets/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Md Siam Maruf",
+            "email": "siam.maruf1@gmail.com"
+        }
+    ],
+    "require": {}
+}

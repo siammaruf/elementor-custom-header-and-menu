@@ -1,0 +1,276 @@
+.elcm-d-flex{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.elcm-logo-area{
+    width: 40%;
+}
+
+.elcm-search-area{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.elcm-logo{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.elcm-logo img{
+    width: 100%;
+    height: auto;
+}
+
+.elcm-search{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.elcm-searchform{
+    display: flex;
+    border: 1px solid #e0e0e0;
+    height: 40px;
+    width: 100%;
+    max-width: 360px;
+}
+
+.elcm-searchform input{
+    border: none !important;
+    width: 100%;
+    padding: 6px 0px !important;
+    font-size: 16px;
+}
+
+.elcm-searchform input:focus{
+    outline: none;
+}
+
+.elcm-search-btn{
+    background: none;
+    border: none;
+    background: #26374a;
+    margin-top: -1px;
+    cursor: pointer;
+    max-height: 40px;
+}
+
+.elcm-search-btn span{
+    display: block;
+    width: 35px;
+    height: auto;
+    padding: 8px;
+}
+
+.elcm-search-btn span img{
+    width: 100%;
+    height: auto;
+}
+
+.elcm-form-group{
+    padding: 2px 10px;
+    width: 311px;
+}
+
+.elcm-language{
+    margin-bottom: 10px;
+}
+
+.elcm-screen-reader-text{
+    display: none;
+}
+
+.elcm-nav-holder{
+   position: relative;
+}
+
+.elcm-col{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.elcm-col-12{
+    width: 100%;
+    flex: 100%;
+}
+
+.elcm-col-6{
+    width: 50%;
+    flex: 50%;
+}
+
+.elcm-col-3{
+    width: 30%;
+    flex: 30%;
+}
+
+.elcm-col-4{
+    width: 40%;
+    flex: 40%;
+}
+
+.elcm-col-8{
+    width: 60%;
+    flex: 60%;
+}
+
+.elcm-col-9{
+    width: 70%;
+    flex: 70%;
+}
+
+.elcm-nav-section{
+    position: relative;
+}
+
+.elcm-nav-content{
+    position: absolute;
+    width: 100%;
+    top: 48px;
+    z-index: 99;
+    left: 0;
+    display: none;
+}
+
+.elcm-nav-parents{
+    background: #444;
+}
+
+.elcm-nav-parents ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.elcm-nav-parents ul li{
+    color: #fff;
+    border-bottom: 1px solid #555;
+    border-left: 1px solid #444;
+    font-size: 18px;
+    display: block;
+    padding: 14px 30px;
+    cursor: pointer;
+}
+
+.elcm-nav-parents ul li:first-child{
+    border-top: 1px solid #444;
+}
+
+.elcm-nav-parents ul li.elcm-active,
+.elcm-nav-parents ul li:hover{
+    color: #333;
+    background: #fff;
+}
+
+.elcm-nav-childs{
+    box-shadow: 10px 10px 10px 5px rgb(0 0 0 / 10%);
+    position: relative;
+    background: #ffffff;
+}
+
+.elcm-nav-childs .elcm-sub-menu{
+    padding: 0 39px 24px 39px;
+    display: none;
+}
+
+.elcm-nav-childs .elcm-sub-menu:first-child{
+    display: block;
+}
+
+.elcm-sub-menu-title{
+    margin-bottom: 1.5em;
+    padding: 6px 0;
+    margin-top: 10px;
+}
+
+.elcm-sub-menu-title a{
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: underline !important;
+    color: #284162;
+}
+
+.elcm-most-requested-title{
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.elcm-sub-requested-item{
+    padding-left: 20px;
+}
+
+.elcm-sub-requested-item ul{
+    list-style: disc !important;
+    padding-left: 12px;
+}
+
+.elcm-sub-requested-item ul li,
+.elcm-sub-list-item ul li{
+    padding: 6px 0;
+}
+
+.elcm-sub-requested-item ul li a,
+.elcm-sub-list-item ul li a{
+    font-size: 18px;
+    color: #284162;
+    text-decoration: underline !important;
+    display: inline-block;
+}
+
+.elcm-sub-requested-item ul li a{
+    display: block;
+}
+
+.elcm-sub-requested-item ul li a:hover,
+.elcm-sub-list-item ul li a:hover{
+    color: #0535d2;
+}
+
+.elcm-sub-requested-item ul li::marker{
+    color: #000;
+    font-size: 20px;
+}
+
+.elcm-nav-header a{
+    display: inline-block;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #284162;
+    padding: 0.6em 1em;
+    position: relative;
+    padding-right: 35px;
+    font-weight: 600;
+}
+
+.elcm-nav-header a:after{
+    content: '';
+    position: absolute;
+    border: solid #444;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    top: 17px;
+    right: 15px;
+}
+
+.elcm-nav-header a.elcm-btn-active,
+.elcm-nav-header a:hover{
+    background: #444;
+    color: #ffffff;
+}
+
+.elcm-nav-header a.elcm-btn-active:after,
+.elcm-nav-header a:hover:after{
+    border-color: #fff;
+}
